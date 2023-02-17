@@ -1,0 +1,73 @@
+main{
+    padding-top: 15vh;
+    min-height: 80vh;
+}
+p.para-text{
+    font-family: playfair-display;
+    font-size: 20px;
+    color: #707070;
+}
+h1.head-text{
+    font-family: playfair-display;
+    font-size: 54px;
+    color: rgb(124, 54, 3);
+    font-weight: bold;
+    padding-top: 2.5rem;
+}
+h1.subhead-text{
+    font-family: playfair-display;
+    font-size: 28px;
+    color: rgb(124, 54, 3);
+    font-weight: bold;
+    padding-top: 2.5rem;
+}
+a.order:hover{
+    color: white;
+}
+div.container-1{
+    background-image: url("../images/bean_scene_coffee_landingpage\ -\ Copy.png");
+    background-repeat: no-repeat;
+    background-position: left 5vh;
+    min-height: 50vh;
+}
+div.getbg{
+    background-color: #fff9f1;
+    min-height: 40vh;
+    border: 2px solid #f9c06a;
+}
+p.inner-text{
+    font-family: playfair-display;
+    font-size: 18px;
+    padding: 2rem 10rem 1rem 10rem;
+    line-height: 40px;
+}
+p.big-text{
+    color: rgb(124, 54, 3);
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: playfair-display;
+    padding-left: 10rem;
+}
+
+
+
+@media screen  and (max-width: 764px) {
+    .para-text{
+        padding: 0 1rem 0 1rem;
+    }
+    .head-text{
+        padding: 0 1rem 0 1rem;
+    }
+    div.container-1{
+        background: transparent;
+    }
+    p.inner-text{
+        padding: 2rem 2rem 1rem 2rem;
+        line-height: 30px;
+    }
+    p.big-text{
+        font-size: 2rem;
+        font-family: playfair-display;
+        padding: 0.5rem 0 0 2rem;
+    }
+}

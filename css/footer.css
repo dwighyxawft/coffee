@@ -1,0 +1,76 @@
+div.footer-1{
+    background-image: url("../images/Group\ 36.png");
+    background-repeat: no-repeat;
+    padding-bottom: 5vh;
+}
+div.input-group button.btn{
+    color:rgb(124, 54, 3);
+    font-size: 22px;
+    font-weight: bold;
+    font-family: playfair-display;
+}
+div.input-group input{
+    font-size: 20px;
+    font-family: playfair-display;
+}
+div.input-group{
+    width: 60%;
+}
+ul.list li{
+    list-style: none;
+    font-size: 18px;
+    font-family: playfair-display;
+}
+p.brand-text{
+    font-size: 14px;
+    font-family: playfair-display;
+    line-height: 23px;
+}
+.brand-name{
+    font-size: 54px;
+    font-family: clicker-script;
+}
+.bold{
+    font-family: playfair-display;
+    font-weight: bold;
+    font-size: 26px;
+    padding-left: 2rem;
+}
+div.footer-2{
+    background-color: rgb(124, 54, 3);
+    background-image: url("../images/fotter_image.png");
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    padding-top: 5rem;
+}
+
+
+
+
+
+
+@media screen and(max-width: 764px) {
+    div.input-group button.btn{
+        font-size: 18px;
+    }
+    p.inner-text{
+        font-size: 14px;
+        padding: 2rem;
+    }
+    p.big-text{
+        padding-left: 2rem;
+    }
+    div.getbg{
+        min-height: 40vh;
+    }
+    div.input-group input{
+        font-size: 18px;
+    }
+    div.input-group{
+        width: 100%;
+    }
+    div.footer-2{
+        padding: 5rem 1rem 0 1rem;
+    }
+}

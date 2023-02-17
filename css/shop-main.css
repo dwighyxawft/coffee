@@ -1,0 +1,110 @@
+main{
+    padding-top: 15vh;
+    min-height: 80vh;
+}
+p.para-text{
+    font-family: playfair-display;
+    font-size: 20px;
+    color: #707070;
+}
+p.badge-text{
+    font-family: playfair-display;
+    font-size: 1.2rem;
+    color: #707070;
+}
+h1.head-text{
+    font-family: playfair-display;
+    font-size: 54px;
+    color: rgb(124, 54, 3);
+    font-weight: bold;
+    padding-top: 2.5rem;
+}
+h1.subhead-text{
+    font-family: playfair-display;
+    font-size: 28px;
+    color: rgb(124, 54, 3);
+    font-weight: bold;
+    padding-top: 2.5rem;
+}
+a.order:hover{
+    color: white;
+}
+div.container-1{
+    background-image: url("../images/pngwing\ 1.png");
+    background-repeat: no-repeat;
+    background-position: left -5vh;
+    min-height: 50vh;
+}
+div.inner-container-1{
+    background-image: url("../images/pngwing\ 2.png");
+    background-repeat: no-repeat;
+    background-position: right -5vh;
+    min-height: 50vh;
+}
+.inner-text{
+    font-family: playfair-display;
+    font-size: 18px;
+    padding: 2rem 10rem 1rem 10rem;
+    line-height: 40px;
+}
+.big-text{
+    color: rgb(124, 54, 3);
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: playfair-display;
+}
+img.badges{
+    width: 88px;
+    height: 88px;
+}
+div.colored-badge{
+    background-color: #fff9f1;
+}
+div.colored-badge:hover{
+    background-color: #ffeed8;
+}
+button.order-btn{
+    background-color: rgb(101, 67, 33);
+    color: white;
+    font-family: playfair-display;
+    font-weight: bold;
+}
+
+
+
+@media screen  and (max-width: 764px) {
+    .para-text{
+        padding: 0 1rem 0 1rem;
+    }
+    .head-text{
+        padding: 0 1rem 0 1rem;
+    }
+    div.container-1{
+        background: transparent;
+    }
+    p.inner-text{
+        padding: 2rem 2rem 1rem 2rem;
+        line-height: 30px;
+    }
+    p.big-text{
+        font-size: 2rem;
+        font-family: playfair-display;
+        padding: 0.5rem 0 0 2rem;
+    }
+    div.container-1{
+        background-image: url("../images/plate-left.png");
+        background-repeat: no-repeat;
+        background-position: left -5vh;
+        min-height: 50vh;
+    }
+    div.inner-container-1{
+        background-image: url("../images/plate-right.png");
+    }
+    div.container-2{
+        margin-top: 6vh;
+    }
+    div.colored-badge{
+        width: 80%;
+        margin: 0 auto 5vh auto;
+    }
+}

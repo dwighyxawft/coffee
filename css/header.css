@@ -1,0 +1,105 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+@font-face {
+    font-family: clicker-script;
+    src: url("../fonts/clicker-script/ClickerScript-Regular.ttf");
+}
+@font-face {
+    font-family: playfair-display;
+    src: url("../fonts/playfair-display/static/PlayfairDisplay-Regular.ttf");
+}
+header{
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+}
+header.index{
+    background-image: url("../images/coffee_image.png");
+}
+header.shop{
+    background-image: url("../images/coffee-shop-bg.jpg");
+}
+header.about{
+    background-image: url("../images/coffee-about-bg.jpg");
+}
+header.coffee{
+    background-image: url("../images/coffee-coffee-bg.jpg");
+}
+div.rgb{
+    min-height: 90vh;
+    background: linear-gradient(90deg, rgba(0,0,0,0.5) 25%, transparent 75%);
+    background-color: rgba(0,0,0,0.125);
+}
+a.navbar-brand{
+    font-family: clicker-script;
+    font-size: 35px;
+    color: #ffffff;
+}
+a.nav-link{
+    font-family: playfair-display;
+    font-size: 14px;
+    color: #ffffff;
+}
+a.active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid white;
+}
+p.header-text{
+    font-family: playfair-display;
+    font-size: 22px;
+}
+h4.header-bigtext{
+    font-family: clicker-script;
+    font-size: 220px;
+}
+a.order{
+    color: #1e1e1e;
+    font-size: 0.9rem;
+    font-family: playfair-display;
+    padding: 1rem 2rem 1rem 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+nav.navbar{
+    background-color: rgba(0,0,0,0.925);
+    min-height: 10vh;
+}
+
+@media screen and (max-width: 764px) {
+    header{
+        min-height: 90vh;
+        background-repeat: no-repeat;
+        background-position: 43% 40%;
+    }
+    header.index{
+        background-image: url("../images/coffee_image.png");
+    }
+    header.about{
+        background-image: url("../images/coffee-about-bg.jpg");
+    }
+    header.shop{
+        background-image: url("../images/coffee-shop-bg.jpg");
+    }
+    a.navbar-brand{
+        font-size: 25px;
+    }
+    ul.navbar-nav li.nav-item{
+        display: inline;
+    }
+    p.header-text{
+        font-family: playfair-display;
+        font-size: 18px;
+        padding: 0 1rem 0 1rem;
+    }
+    h4.header-bigtext{
+        font-family: clicker-script;
+        font-size: 150px;
+        padding: 0 1rem 0 1rem;
+    }
+    a.order{
+        font-size: 14px;
+        margin-left: 1rem;
+    }
+}
